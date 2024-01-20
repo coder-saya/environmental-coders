@@ -1,0 +1,13 @@
+ .logo {
+    float: left;
+    height: 80px;
+    width: 80px;
+ }
+
+ .top-nav {
+    float: right;
+ }
+
+ .nav-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
