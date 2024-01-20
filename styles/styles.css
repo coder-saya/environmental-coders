@@ -1,6 +1,13 @@
  
  .body {
-    color: rgb(60, 141, 123);
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
  }
 
  .logo img {
@@ -11,9 +18,9 @@
 
  .top-nav {
     float: right;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     height: 50px;
-    width: 1000px;
+    width: 900px;
     overflow: hidden;
 
  }
@@ -22,5 +29,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
+.destinations {
+    float: left;
+    padding: 50px;
+    padding-top: 100px;
 
+}
+
+.destination-img {
+    width: 200px;
+    height: 200px;
+}
 
