@@ -1,4 +1,10 @@
  
+ .header {
+    background-color: rgb(31, 31, 31);
+    height: 50px;
+    width: 100px;
+ }
+ 
  .body {
     margin: 0;
     padding: 0;
