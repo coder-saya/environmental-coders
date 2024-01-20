@@ -1,3 +1,4 @@
+
  .logo img {
     float: left;
     height: 100px;
@@ -14,4 +15,8 @@
 
  .nav-item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .background-img img {
+    background-image: url(../images/birdie.jpg);
  }
