@@ -1,4 +1,7 @@
  
+ .BODY {
+    background-color: rgba(131, 210, 255, 0.284);
+ }
 
  .body {
     margin: 0;
@@ -10,6 +13,7 @@
     display: flex;
     flex-direction: column;
     
+
  }
 
  .logo img {
@@ -25,6 +29,8 @@
     width: 900px;
     overflow: hidden;
     padding: 20px;
+    border-radius: 50px;
+    
     
 
  }
