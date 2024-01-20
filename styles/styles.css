@@ -22,4 +22,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
+ .background-img img {
+    background-image: url(../images/birdie.jpg);
+    background-image: cover;
+ }
 
