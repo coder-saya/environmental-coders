@@ -1,9 +1,13 @@
  
- .BODY {
-    background-color: rgba(131, 210, 255, 0.284);
- }
-
- .body {
+  body {
+    background-color: rgba(0, 0, 0, 0.921);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    
+  }
+ 
+ .body body {
     margin: 0;
     padding: 0;
     background-image: url('../images/background-img.jpg');
@@ -12,8 +16,6 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
-
  }
 
  .logo img {
@@ -25,25 +27,30 @@
  .top-nav {
     float: right;
     background-color: rgb(255, 255, 255);
-    height: 50px;
+    height: 40px;
     width: 900px;
     overflow: hidden;
     padding: 20px;
     border-radius: 50px;
-    
-    
-
  }
 
  .nav-item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
  }
 
 .destinations {
     float: left;
     padding: 50px;
     padding-top: 100px;
-
+    background-color: rgba(40, 40, 40, 0.788);
+    border-radius: 50px;
+    margin: 20px;
+    color: white;
+    font-size: medium;
 }
 
 .destination-img {
@@ -55,5 +62,20 @@
     height: 50px;
     width: 100px;
  }
+
+ .view-details {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+ }
+
+ .link {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+ }
+
+
     
 
